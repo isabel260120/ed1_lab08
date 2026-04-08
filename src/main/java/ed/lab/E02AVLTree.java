@@ -106,6 +106,7 @@ public class E02AVLTree<T> {
         updateHeight(newRoot);
         return newRoot;
     }
+
     private Node<T> rotateRight(Node<T> root) {
         if (root == null) return null;
         Node<T> newRoot = root.left;

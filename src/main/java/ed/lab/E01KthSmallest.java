@@ -19,6 +19,7 @@ public class E01KthSmallest {
             answer = node.value;
             return;
         }
+
         inOrder(node.right, k);
     }
 
